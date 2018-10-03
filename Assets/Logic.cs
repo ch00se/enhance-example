@@ -15,14 +15,14 @@ public class Logic : MonoBehaviour {
 		
 	}
 
-    public void show_interstitial()
+    public void ShowInterstitial()
     {
         Debug.Log("interstitial");
         Enhance.ShowInterstitialAd();
 
     }
 
-    public void show_rewarded()
+    public void ShowRewarded()
     {
         Debug.Log("rewarded");
         if (Enhance.IsRewardedAdReady())
